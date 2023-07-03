@@ -1,0 +1,159 @@
+body {
+  font-family: Arial;
+  padding: 30px;
+  color: #333;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+}
+
+h1 {
+  text-align: center;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+h2 {
+  margin-bottom: 10px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+p {
+  margin: 10px 0;
+
+}
+
+input {
+  box-sizing: border-box;
+
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #d9534f;
+  ;
+}
+
+.b {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  overflow: hidden;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+[data-theme="light"] {
+  background-image: url('./img/aaa.jpg');
+  object-fit: cover;
+  object-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+[data-theme="dark"] {
+  background-image: url('./img/spider.webp');
+  object-fit: cover;
+  object-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+
+}
+
+.theme-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  position: relative;
+}
+
+.filter,.search{
+  border-bottom:  1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div{
+  flex: 1 1 0;
+}
+
+
+
+
+  
+
